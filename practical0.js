@@ -1,5 +1,8 @@
 // Question 1 - function bigBus(n)
 // yea. added code. 
+// create variable called a
+let a = 96;
+console.log(a)
 
 // Q2
 
