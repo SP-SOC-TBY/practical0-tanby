@@ -50,6 +50,14 @@ function bigBus(abc){
 //   RETURN max
 
 // Q3
+// Function multiplicationTable(numbers)
+//   create array, output to store results
+//   LOOP (row) from 1 to n
+//      create array, r, to store numbers in row
+//      LOOP (column) from 1 to n
+//         add (column x row) to r
+//      add r to output
+//   RETURN output
 
 // Q4
 
