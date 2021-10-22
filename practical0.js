@@ -60,6 +60,11 @@ function bigBus(abc){
 //   RETURN output
 
 // Q4
+// function calculateMean(numbers)
+//   create variable, total set to zero
+//   LOOP from 0 to array length -1
+//     total = total + current number
+//   RETURN total / array length
 
 // Q5 
 
