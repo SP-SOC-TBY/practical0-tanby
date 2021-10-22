@@ -42,6 +42,13 @@ function bigBus(abc){
 
 // Q2
 
+// function maxNumbers(numbers)
+//   create variable, max to store 1st number in array
+//   LOOP from 1 to array length -1
+//     IF current number in array greater than max THEN
+//        store current number in max
+//   RETURN max
+
 // Q3
 
 // Q4
