@@ -67,6 +67,10 @@ function bigBus(abc){
 //   RETURN total / array length
 
 // Q5 
+// Function fib(n)
+//   IF n is zero THEN return zero
+//   ELSE IF n is one THEN return one
+//   ELSE return fib(n-1) + fib(n-2)
 
 // Q6 
 
