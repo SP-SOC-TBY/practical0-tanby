@@ -1,0 +1,6 @@
+Module Information
+Module Aims:
+The module teaches the techniques and skills required to set up and deploy restful webservices integrated with database using Server side frameworks. Students will learn about server-side programming and be able to create and deploy a database-driven web service using scripting languages.
+
+Teaching Methods / Learning Tasks:
+The module will be taught using a combination of tutorial and practical sessions. The tutorial sessions will provide students with the knowledge and concepts covered in the syllabus. The practical sessions will reinforce students learning through hands-on practical exercises.
