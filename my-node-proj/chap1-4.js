@@ -2,6 +2,12 @@
 // with great power comes great responsibility - Spiderman uncle
 const fs = require('fs')
 
+// demo to help in pract 1
+// doc - https://nodejs.org/api/fs.html#fsreadfilesyncpath-options
+let content = fs.readFileSync("file.txt", "utf8")
+// sync = synchronous = code will pause/wait until operation complete
+console.log(content)
+
 fs.readFile(
     "file.txt", //-- location of file to read
     // we using arrow function 
