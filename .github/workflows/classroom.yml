@@ -11,13 +11,16 @@
               repository: SP-SOC-TBY/bed_pract02
               # repository: ${{ secrets.TEN_THIRTY }}          
               # token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          - uses: actions/upload-artifact@v2
+            with:                                                      
+              path: lessonx/   
           - name: List files in the repository
             run: |
               ls ${{ github.workspace }}
           - run: echo "🍏 This job's status is ${{ job.status }}."
       build:
         name: Autograding
-        needs: get_test
+        needs: get_testadded
         runs-on: ubuntu-latest
         steps:
           - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
