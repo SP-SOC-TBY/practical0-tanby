@@ -20,7 +20,7 @@
           - run: echo "🍏 This job's status is ${{ job.status }}."
       build:
         name: Autograding
-        needs: get_testadded
+        needs: get_test
         runs-on: ubuntu-latest
         steps:
           - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
