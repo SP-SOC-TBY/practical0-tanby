@@ -13,7 +13,7 @@
               # token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           - uses: actions/upload-artifact@v2
             with:                                                      
-              path: lessonx/   
+              path: first_node_server/   
           - name: List files in the repository
             run: |
               ls ${{ github.workspace }}
